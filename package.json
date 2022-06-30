@@ -12,5 +12,6 @@
   },
   "scripts": {
     "test": "tsc parse.ts && node parse.js"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
