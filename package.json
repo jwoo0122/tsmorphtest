@@ -1,0 +1,16 @@
+{
+  "name": "tsmorphtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "ts-morph": "^15.1.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "tsc parse.ts && node parse.js"
+  }
+}
